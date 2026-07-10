@@ -631,6 +631,17 @@ const Game: React.FC = () => {
                 </div>
                 <p className="text-white/20 text-[10px] tracking-[0.8em] mb-3 uppercase">Lead Developer</p>
                 <h2 className="text-white/80 text-2xl tracking-[0.4em] uppercase font-light">Fahad Malibiche</h2>
+                <p className="text-white/30 text-xs tracking-widest max-w-md mx-auto">
+                  Lead programmer, designer, and artist behind SIGNO's atmospheric world.
+                </p>
+              </section>
+
+              {/* About the Game */}
+              <section className="animate-fade-in" style={{ animationDelay: '0.75s' }}>
+                <p className="text-white/20 text-[10px] tracking-[0.8em] mb-4 uppercase">About SIGNO</p>
+                <p className="text-white/40 text-sm tracking-widest max-w-2xl mx-auto">
+                  SIGNO is a challenging 2D platformer inspired by LIMBO, featuring atmospheric visuals, immersive audio, and precise controls. Navigate through hazardous environments, solve physics-based puzzles, and uncover hidden secrets as you journey into the darkness.
+                </p>
               </section>
 
               {/* Core Credits */}
@@ -652,12 +663,25 @@ const Game: React.FC = () => {
               {/* Socials */}
               <section className="animate-fade-in" style={{ animationDelay: '1.5s' }}>
                 <p className="text-white/20 text-[10px] tracking-[0.8em] mb-6 uppercase">Connect</p>
-                <div className="flex justify-center gap-12">
-                  <a href="https://instagram.com/ard.sing" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white/90 transition-all text-xs tracking-[0.3em] uppercase border-b border-transparent hover:border-white/20 pb-1">
+                <div className="flex justify-center gap-6 flex-wrap">
+                  <a href="https://www.instagram.com/ard.sing?igsh=NnQ3ZWVmYXh4b2Zn" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white/90 transition-all text-xs tracking-[0.3em] uppercase border-b border-transparent hover:border-white/20 pb-1">
                     Instagram
                   </a>
+                  <span className="mx-2 text-white/20">•</span>
                   <a href="https://youtube.com/@gamesiteonline" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white/90 transition-all text-xs tracking-[0.3em] uppercase border-b border-transparent hover:border-white/20 pb-1">
                     YouTube
+                  </a>
+                  <span className="mx-2 text-white/20">•</span>
+                  <a href="https://whatsapp.com/channel/0029VbChyDUI1rcht5jajL3q" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white/90 transition-all text-xs tracking-[0.3em] uppercase border-b border-transparent hover:border-white/20 pb-1">
+                    WhatsApp
+                  </a>
+                  <span className="mx-2 text-white/20">•</span>
+                  <a href="https://www.threads.com/@ard.sing" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white/90 transition-all text-xs tracking-[0.3em] uppercase border-b border-transparent hover:border-white/20 pb-1">
+                    Threads
+                  </a>
+                  <span className="mx-2 text-white/20">•</span>
+                  <a href="https://wa.me/qr/FYVTX2AFYSUVH1" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white/90 transition-all text-xs tracking-[0.3em] uppercase border-b border-transparent hover:border-white/20 pb-1">
+                    WhatsApp QR
                   </a>
                 </div>
               </section>
