@@ -1,0 +1,235 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production build outputs
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and editors
+.vscode/
+.idea*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.seed
+
+# Coverage directory used by tools like istanbul
+coverage/
+.lcov*
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite
+.vitepress/
+node_modules/.vite/
+
+# Misc
+.cache
+.temp
+.backup
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.desktop
+Thumbs.db
+
+# Testing
+coverage
+.nyc_output
+
+# Storybook
+.out
+.storybook-out
+storybook-static/
+
+# Vercel
+.vercel
+output/
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# pdebug debug log
+pdebug.log
+
+# nuxt
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+
+# Nuxt
+.nuxt
+dist
+
+# Gridsome
+.dist
+.cache
+
+# Docsite
+.docsite
+
+# Vuepress
+.vuepress/dist
+.temp
+
+# Docusaurus
+website/build/
+
+# Serverless
+.serverless/
+.webpack/
+
+# Nuxi
+.nuxte/
+.output/
+
+# Vitepress
+.vuepress/.cache
+.vuepress/dist
+
+# Astro
+.dist
+.astro
+
+# SvelteKit
+.package
+.svelte-kit
+
+# Turbopack
+.turbo
+
+# Next.js
+.out
+.next
+.next/cache
+
+# Nuxt
+.nuxt
+dist
+
+# Vitepress
+.vuepress/.cache
+.vuepress/dist
+
+# Cache directories
+.cache
+.temp
+
+# Miscellaneous
+*.tmp
+*.temp
+*.backup
+*.back
+
+# OS
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.vpt
+.DS_Store
+.AppleDouble
+.LSoverride
+
+# Must have
+Icon?
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.Network Trash Folder
+.Temporary Items
+.apdisk
+
+# Vue
+.vuestore/
+.vuepress/dist
+.cache
+dist
+
+# Svelte
+.svelte-kit
+package
+
+# Miscellaneous
+*.8bs
+._ddp
+._mp
+._lregion
+._lv*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.AppearanceDB.prefSync
+.Cookies
+.Cookies.binarycookies
+.com.apple.iChat.AudioFinished.partials
+.com.apple.iChat.VideoData.Index
+.com.apple.iChat.VideoData.SbIndex
+.com.apple.iChat.VisibleParticipants
+.com.apple.iChat.VideoData
+.com.appleLaunchServices.024628-com.apple.LSSharedFileList.FloatingItems
+.com.appleLaunchServices.024628-com.apple.launchserviceserviceservices
+.com.appleLaunchServices.024628-com.apple.launchserviceservices
+.com.appleLaunchServices.024628-com.apple.LaunchServices
+.com.appleLaunchServices.024628-com.apple.LaunchServices.plist
+.com.appleLaunchServices.024628-com.apple.LaunchServices
+.com.appleLaunchServices.024628-com.apple.LaunchServices.plist
+.DS_Store
+.DocumentRevisions-V100
+.fsevents_sd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.TimeMachine.Support
+.Backup.backupdb
+.MobileBackups
+.mobilebackup
+.opendirectory
+.vol
