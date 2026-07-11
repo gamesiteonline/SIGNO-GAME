@@ -754,7 +754,7 @@ const Game: React.FC = () => {
               <h2 className="text-red-500 text-3xl font-bold tracking-[0.05em]">YOU DIED</h2>
             </div>
             <p className="text-white/50 text-lg">
-              YOU DIED {gameState.deaths} TIME{{ gameState.deaths !== 1 ? 'S' : '' }}
+              YOU DIED {gameState.deaths} TIME{gameState.deaths !== 1 ? 'S' : ''}
             </p>
             <div className="flex space-x-4">
               <button onClick={restartLevel} className="px-6 py-3 border border-red-500 text-red-400 hover:bg-red-500 hover:text-black transition-all">
@@ -774,7 +774,6 @@ const Game: React.FC = () => {
       {/* Level Complete */}
       {screen === 'level-complete' && (
         <div className="absolute inset-0 z-40 bg-black flex items-center justify-center">
-          justify-center">
           <div className="text-center animate-fade-in">
             <Trophy className="mx-auto mb-8 text-white/20" size={48} />
             <h2 className="text-white text-4xl tracking-[0.4em] mb-2">STAGE CLEAR</h2>

@@ -345,8 +345,8 @@ export class ParticleSystem {
           }
           break;
 
-        case 'firefly:
-          +=   (  (Math.random()  -  0.5))  *  40  *  dt;
+        case 'firefly':
+          p.x +=   (  (Math.random()  -  0.5))  *  40  *  dt;
           p.y          +=   (  (Math.random()  -  0.5))  *  40  *  dt;
           p.vx         *=  0.96;
           p.vy         *=  0.96;
